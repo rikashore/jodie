@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jodie"
+version = "0.1.0"
+description = ""
+authors = ["rikashore <aarav.navani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+jodie = "jodie.app:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
